@@ -3,7 +3,7 @@ import { Carousel } from "react-responsive-carousel";
 
 function Image() {
     return (
-        <Carousel autoPlay className="carousel-wrapper">
+        <Carousel infiniteLoop useKeyboardArrows autoPlay className="carousel-wrapper">
           <div>
             <img alt="" src="http://lorempixel.com/output/cats-q-c-640-480-1.jpg" />
             <p className="legend">Legend 1</p>
